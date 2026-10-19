@@ -1,0 +1,49 @@
+body {
+    background-image: url("grafiti bg.jpg")
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    background-color: rgb(111, 199, 191);
+    font-family: courier new;
+    color: rgb(8, 7, 9);
+    padding: 20px;
+    font-weight: bold;
+    border: 2px solid #333333;
+
+}
+
+.images-1 {
+
+    padding: 2px;
+    background-color: #16767f;
+    border: 2px solid #333333;
+
+}
+
+#can {
+    width: 20%; height: auto;
+}
+
+#bucket {
+    width: 15%;
+}
+#gas-mask {
+    width: 20%;
+}
+#STACK {
+    width: 30%;
+}
+
+    
+
+.main-zone {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 0 0 25px 0;
+
+}
