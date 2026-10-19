@@ -1,0 +1,80 @@
+html {
+    background-color: pink;
+}
+
+a {
+    color: rgb(226, 43, 134);
+}
+
+li {
+    color: white;
+}
+
+h1 {
+    background-color: aquamarine;
+    color: rgb(220, 118, 204);
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+
+p {
+    background-color: aquamarine;
+    color: rgb(230, 14, 147);
+    padding: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#munkey {
+    width: 70%
+}
+
+h2 {
+    background-color: aquamarine;
+    color: rgb(230, 14, 147);
+    padding: 50px;
+    height: 200px
+}
+
+.highlight_01 {
+    background-color: black;
+}
+
+.highlight_02 {
+    background-color: rgb(123, 229, 74);
+}
+
+.highlight_01 strong {
+    background-color: blue;
+}
+
+p:hover {
+    color: blueviolet;
+}
+
+#munkey:hover {
+    width: 50%;
+}
+
+#main {
+    background-color: aliceblue;
+    padding: 50px;
+    margin: 80px;
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+    row-gap: 30px;
+    column-gap: 50px;
+    padding: 50px; margin: 80px; background-color: #FFE488;
+}
+
+#munkey {background-color: #80C7FF;}
