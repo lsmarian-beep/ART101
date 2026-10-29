@@ -1,6 +1,6 @@
 let environmentTitle = "Stack's Alley";
 
-let environmentElements = ["clouds", "spray paint can", "paint bucket", "moon"];
+let environmentElements = ["clouds", "spray paint can", "paint bucket", "moon", "gas mask"];
 
 let mainEntity = {
     name: "Stack",
@@ -12,7 +12,25 @@ let mainEntity = {
 };
 $("#spraycan").click(function () {
 
+    let message = "<p>" + environmentElements[1] + ".</p>";
+    $("#output").html(message);
+
+    console.log(count);
+    console.log(arrayPosition);
+    console.log(currentMood);
+});
+$("#paint-bucket").click(function () {
+
     let message = "<p>" + environmentElements[2] + ".</p>";
+    $("#output").html(message);
+
+    console.log(count);
+    console.log(arrayPosition);
+    console.log(currentMood);
+});
+$("#gasmask").click(function () {
+
+    let message = "<p>" + environmentElements[4] + ".</p>";
     $("#output").html(message);
 
     console.log(count);
