@@ -1,7 +1,13 @@
 body {
     background-image: url("grafiti bg.jpg")
 }
-
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
 img {
     width: 200px;
 }
@@ -17,41 +23,56 @@ p {
 }
 
 .images-1 {
-
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
     padding: 2px;
     background-color: #16767f;
     border: 2px solid #333333;
-
 }
 
-#can {
-    width: 20%; height: auto;
+.images-1 > img,
+.images-1 > div {
+    flex: 1;
+    min-width: 0;
 }
 
-#bucket {
-    width: 15%;
+.images-1 img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
-#gas-mask {
-    width: 20%;
-}
+
+#can,
+#bucket,
+#gas-mask,
 #STACK {
-    width: 30%;
+    width: 60%;
 }
 
     
 
 .main-zone {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     align-items: flex-start;
-    margin: 0 0 25px 0;
-
 }
 
 #output {
-    width: 100%;
+    flex: 0 0 0;
+    box-sizing: border-box;
     min-height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+#bad-button {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+#bad-button img {
+    display: block;
 }

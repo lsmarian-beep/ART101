@@ -41,16 +41,16 @@ function askSeason() {
     let userSeason = prompt("What Season Is It? Choose: spring, summer, autumn, or winter");
 
     if (userSeason == "summer") {
-        $("#output").css("background-image", "url('summer-bg.jpeg')");
+        $("body").css("background-image", "url('summer-bg.jpeg')");
     }
     else if (userSeason == "winter") {
-        $("#output").css("background-image", "url('snowy-bg.avif')");
+        $("body").css("background-image", "url('snowy-bg.avif')");
     }
     else if (userSeason == "autumn") {
-        $("#output").css("background-image", "url('fall-bg.jpeg')");
+        $("body").css("background-image", "url('fall-bg.jpeg')");
     }
     else if (userSeason == "spring") {
-        $("#output").css("background-image", "url('spring-bg.jpeg')");
+        $("body").css("background-image", "url('spring-bg.jpeg')");
     }
 }
 
